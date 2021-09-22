@@ -1,0 +1,1724 @@
+{
+  "name": "Auditing example",
+  "description": "",
+  "area": "POLYGON ((14.47877883911133 47.451018236514805, 15.074100494384767 45.38621426135131, 20.07159233093262 44.76020364136804, 19.78517532348633 47.093734237386094, 14.47877883911133 47.451018236514805))",
+  "advance_submission_period": 12,
+  "reporting_fields": [
+    {
+      "id": 1,
+      "obligation": "mandatory",
+      "code": "safety",
+      "description": null,
+      "additional_info": null,
+      "children": [
+        {
+          "id": 2,
+          "obligation": "mandatory",
+          "code": "safety/pob",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 3,
+              "obligation": "mandatory",
+              "code": "persons-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 4,
+              "obligation": "mandatory",
+              "code": "passengers-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 5,
+              "obligation": "mandatory",
+              "code": "crew-member-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 6,
+              "obligation": "mandatory",
+              "code": "stowaway-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 7,
+              "obligation": "mandatory",
+              "code": "passenger-leaving",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 8,
+              "obligation": "mandatory",
+              "code": "passenger-boarding",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "obligation": "mandatory",
+          "code": "signalling",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 12,
+              "obligation": "mandatory",
+              "code": "blue-cones",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 13,
+              "obligation": "mandatory",
+              "code": "animals",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 14,
+              "obligation": "mandatory",
+              "code": "drugs",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "obligation": "mandatory",
+      "code": "voyage",
+      "description": null,
+      "additional_info": null,
+      "children": [
+        {
+          "id": 16,
+          "obligation": "mandatory",
+          "code": "voyage/general",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 17,
+              "obligation": "mandatory",
+              "code": "voyage-number",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 18,
+              "obligation": "mandatory",
+              "code": "transport-mode",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 640,
+              "obligation": "mandatory",
+              "code": "next-transport-mode",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 641,
+              "obligation": "mandatory",
+              "code": "total-cargo",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 19,
+              "obligation": "mandatory",
+              "code": "sailing-regime",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 31,
+              "obligation": "mandatory",
+              "code": "level-of-equipment",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 20,
+              "obligation": "mandatory",
+              "code": "port-of-call",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 21,
+              "obligation": "mandatory",
+              "code": "purpose-of-call",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 22,
+              "obligation": "mandatory",
+              "code": "next-port",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 23,
+              "obligation": "mandatory",
+              "code": "previous-port",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 463,
+              "obligation": "mandatory",
+              "code": "voyage/remark",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 680,
+              "obligation": "mandatory",
+              "code": "voyage/waste-requirements",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 681,
+              "obligation": "mandatory",
+              "code": "voyage/cargo-declarations-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 682,
+              "obligation": "mandatory",
+              "code": "voyage/ships-stores-declarations-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 683,
+              "obligation": "mandatory",
+              "code": "voyage/crew-lists-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 684,
+              "obligation": "mandatory",
+              "code": "voyage/passenger-lists-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 685,
+              "obligation": "mandatory",
+              "code": "voyage/crew-effects-declarations-count",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 686,
+              "obligation": "mandatory",
+              "code": "voyage/health-declarations-count",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "obligation": "mandatory",
+          "code": "departure",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 25,
+              "obligation": "mandatory",
+              "code": "departure/isrs",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 26,
+              "obligation": "mandatory",
+              "code": "departure/name",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 27,
+              "obligation": "mandatory",
+              "code": "departure/object-code",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 28,
+              "obligation": "mandatory",
+              "code": "departure/terminal-name",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 29,
+              "obligation": "mandatory",
+              "code": "departure/fairway-section-code",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 30,
+              "obligation": "mandatory",
+              "code": "departure/fairway-hectometre",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 33,
+              "obligation": "mandatory",
+              "code": "departure/location-activity",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 34,
+              "obligation": "mandatory",
+              "code": "departure/sailing-direction",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 622,
+              "obligation": "mandatory",
+              "code": "departure/duration-port-use",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "obligation": "mandatory",
+          "code": "route",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 36,
+              "obligation": "mandatory",
+              "code": "route/route-point",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 37,
+                  "obligation": "mandatory",
+                  "code": "route-point/isrs",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 623,
+                  "obligation": "mandatory",
+                  "code": "route-point/name",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 38,
+                  "obligation": "mandatory",
+                  "code": "route-point/location-activity",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 43,
+                  "obligation": "mandatory",
+                  "code": "route-point/sailing-direction",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 624,
+                  "obligation": "mandatory",
+                  "code": "route-point/duration-port-use",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "obligation": "mandatory",
+          "code": "destination",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 45,
+              "obligation": "mandatory",
+              "code": "destination/isrs",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 46,
+              "obligation": "mandatory",
+              "code": "destination/name",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 451,
+          "obligation": "mandatory",
+          "code": "border-points",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 452,
+              "obligation": "mandatory",
+              "code": "border-point",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 453,
+                  "obligation": "mandatory",
+                  "code": "border-point/location-ref",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 456,
+                  "obligation": "mandatory",
+                  "code": "border-point/isrs-code",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 454,
+                  "obligation": "mandatory",
+                  "code": "border-point/location-name",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 455,
+                  "obligation": "mandatory",
+                  "code": "border-point/time",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "obligation": "mandatory",
+      "code": "convoy",
+      "description": null,
+      "additional_info": null,
+      "children": [
+        {
+          "id": 60,
+          "obligation": "mandatory",
+          "code": "convoy/general",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 61,
+              "obligation": "mandatory",
+              "code": "convoy-type",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 62,
+              "obligation": "mandatory",
+              "code": "convoy-length",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 63,
+              "obligation": "mandatory",
+              "code": "convoy-width",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 64,
+              "obligation": "mandatory",
+              "code": "convoy-draught",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 65,
+              "obligation": "mandatory",
+              "code": "convoy-airdraft",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 66,
+              "obligation": "mandatory",
+              "code": "convoy-capacity",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 67,
+              "obligation": "mandatory",
+              "code": "fuel-type",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "obligation": "mandatory",
+          "code": "convoy/main-vessel",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 71,
+              "obligation": "mandatory",
+              "code": "main-vessel/eni",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 69,
+              "obligation": "mandatory",
+              "code": "main-vessel/name",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 70,
+              "obligation": "mandatory",
+              "code": "main-vessel/previous-name",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 72,
+              "obligation": "mandatory",
+              "code": "main-vessel/mmsi",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 73,
+              "obligation": "mandatory",
+              "code": "main-vessel/atis",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 74,
+              "obligation": "mandatory",
+              "code": "main-vessel/nationality",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 75,
+              "obligation": "mandatory",
+              "code": "main-vessel/previous-nationality",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 76,
+              "obligation": "mandatory",
+              "code": "main-vessel/type",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 77,
+              "obligation": "mandatory",
+              "code": "main-vessel/propulsion",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 78,
+              "obligation": "mandatory",
+              "code": "main-vessel/length",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 79,
+              "obligation": "mandatory",
+              "code": "main-vessel/width",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 80,
+              "obligation": "mandatory",
+              "code": "main-vessel/capacity",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 81,
+              "obligation": "mandatory",
+              "code": "main-vessel/draught",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 82,
+              "obligation": "mandatory",
+              "code": "main-vessel/maximum-draught",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 83,
+              "obligation": "mandatory",
+              "code": "main-vessel/power",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 84,
+              "obligation": "mandatory",
+              "code": "main-vessel/passenger-capacity",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 642,
+              "obligation": "mandatory",
+              "code": "main-vessel/maximum-speed",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 643,
+              "obligation": "mandatory",
+              "code": "main-vessel/double-hull",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 644,
+              "obligation": "mandatory",
+              "code": "main-vessel/engine-type",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 645,
+              "obligation": "mandatory",
+              "code": "main-vessel/engine-year",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 646,
+              "obligation": "mandatory",
+              "code": "main-vessel/emission-reduction",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 87,
+              "obligation": "mandatory",
+              "code": "main-vessel/cereu-id",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 88,
+              "obligation": "mandatory",
+              "code": "main-vessel/cereu-expiration",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 89,
+              "obligation": "mandatory",
+              "code": "main-vessel/cereu-issuer",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 90,
+              "obligation": "mandatory",
+              "code": "main-vessel/meaeu-id",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 91,
+              "obligation": "mandatory",
+              "code": "main-vessel/meaeu-expiration",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "obligation": "mandatory",
+          "code": "barges",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 97,
+              "obligation": "mandatory",
+              "code": "barges/barge",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 99,
+                  "obligation": "mandatory",
+                  "code": "barge/eni",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 98,
+                  "obligation": "mandatory",
+                  "code": "barge/name",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 461,
+                  "obligation": "mandatory",
+                  "code": "barge/previous-name",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 100,
+                  "obligation": "mandatory",
+                  "code": "barge/mmsi",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 101,
+                  "obligation": "mandatory",
+                  "code": "barge/nationality",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 102,
+                  "obligation": "mandatory",
+                  "code": "barge/type",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 103,
+                  "obligation": "mandatory",
+                  "code": "barge/propulsion",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 104,
+                  "obligation": "mandatory",
+                  "code": "barge/length",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 105,
+                  "obligation": "mandatory",
+                  "code": "barge/width",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 106,
+                  "obligation": "mandatory",
+                  "code": "barge/capacity",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 107,
+                  "obligation": "mandatory",
+                  "code": "barge/draught",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 108,
+                  "obligation": "mandatory",
+                  "code": "barge/maximum-draught",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 109,
+                  "obligation": "mandatory",
+                  "code": "barge/power",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 649,
+                  "obligation": "mandatory",
+                  "code": "barge/vessel-owner",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 110,
+                  "obligation": "mandatory",
+                  "code": "barge/cereu-id",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 111,
+                  "obligation": "mandatory",
+                  "code": "barge/cereu-expiration",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 112,
+                  "obligation": "mandatory",
+                  "code": "barge/cereu-issuer",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 120,
+          "obligation": "mandatory",
+          "code": "container-matrices",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 121,
+              "obligation": "mandatory",
+              "code": "container-matrices/container-matrix",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 122,
+                  "obligation": "mandatory",
+                  "code": "container-matrix/container-range",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 123,
+                  "obligation": "mandatory",
+                  "code": "container-matrix/container-count",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 124,
+                  "obligation": "mandatory",
+                  "code": "container-matrix/container-status",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "obligation": "mandatory",
+      "code": "carrier",
+      "description": null,
+      "additional_info": null,
+      "children": [
+        {
+          "id": 131,
+          "obligation": "mandatory",
+          "code": "carrier/vessel-operator",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 132,
+              "obligation": "mandatory",
+              "code": "vessel-operator/name",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 133,
+              "obligation": "mandatory",
+              "code": "vessel-operator/country",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 140,
+          "obligation": "mandatory",
+          "code": "carrier/vessel-skipper",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 141,
+              "obligation": "mandatory",
+              "code": "vessel-skipper/name",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 143,
+          "obligation": "mandatory",
+          "code": "carrier/agent",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 144,
+              "obligation": "mandatory",
+              "code": "agent/name",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 145,
+          "obligation": "mandatory",
+          "code": "carrier/invoicing-party",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 146,
+              "obligation": "mandatory",
+              "code": "invoicing-party/name",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        },
+        {
+          "id": 650,
+          "obligation": "mandatory",
+          "code": "carrier/vessel-owner",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 651,
+              "obligation": "mandatory",
+              "code": "vessel-owner/name",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "obligation": "mandatory",
+      "code": "consignments",
+      "description": null,
+      "additional_info": null,
+      "children": [
+        {
+          "id": 161,
+          "obligation": "mandatory",
+          "code": "consignments/consignment",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 162,
+              "obligation": "mandatory",
+              "code": "consignment/bill-of-lading",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 163,
+                  "obligation": "mandatory",
+                  "code": "bill-of-lading/number",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 164,
+                  "obligation": "mandatory",
+                  "code": "bill-of-lading/date",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 400,
+                  "obligation": "mandatory",
+                  "code": "bill-of-lading-place-issue",
+                  "description": null,
+                  "additional_info": null,
+                  "children": [
+                    {
+                      "id": 401,
+                      "obligation": "mandatory",
+                      "code": "bill-of-lading-place-issue/location-ref",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 165,
+                      "obligation": "mandatory",
+                      "code": "bill-of-lading-place-issue/isrs-code",
+                      "description": null,
+                      "additional_info": null
+                    }
+                  ]
+                },
+                {
+                  "id": 167,
+                  "obligation": "mandatory",
+                  "code": "bill-of-lading/sender-name",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            },
+            {
+              "id": 168,
+              "obligation": "mandatory",
+              "code": "consignment/voyage",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 169,
+                  "obligation": "mandatory",
+                  "code": "consignment-origin",
+                  "description": null,
+                  "additional_info": null,
+                  "children": [
+                    {
+                      "id": 402,
+                      "obligation": "mandatory",
+                      "code": "consignment-origin/location-ref",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 170,
+                      "obligation": "mandatory",
+                      "code": "consignment-origin/isrs-code",
+                      "description": null,
+                      "additional_info": null
+                    }
+                  ]
+                },
+                {
+                  "id": 172,
+                  "obligation": "mandatory",
+                  "code": "consignment-loading",
+                  "description": null,
+                  "additional_info": null,
+                  "children": [
+                    {
+                      "id": 403,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/location-ref",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 173,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/isrs-code",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 174,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/location-name",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 175,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/object-code",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 176,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/terminal-name",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 177,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/fairway-section-code",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 178,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/fairway-hectometre",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 179,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/etd",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 450,
+                      "obligation": "mandatory",
+                      "code": "consignment-loading/company-name",
+                      "description": null,
+                      "additional_info": null
+                    }
+                  ]
+                },
+                {
+                  "id": 180,
+                  "obligation": "mandatory",
+                  "code": "consignment-discharge",
+                  "description": null,
+                  "additional_info": null,
+                  "children": [
+                    {
+                      "id": 404,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/location-ref",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 181,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/isrs-code",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 182,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/location-name",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 183,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/object-code",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 184,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/terminal-name",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 185,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/fairway-section-code",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 186,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/fairway-hectometre",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 187,
+                      "obligation": "mandatory",
+                      "code": "consignment-discharge/eta",
+                      "description": null,
+                      "additional_info": null
+                    }
+                  ]
+                },
+                {
+                  "id": 188,
+                  "obligation": "mandatory",
+                  "code": "consignment-final-destination",
+                  "description": null,
+                  "additional_info": null,
+                  "children": [
+                    {
+                      "id": 405,
+                      "obligation": "mandatory",
+                      "code": "consignment-final-destination/location-ref",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 189,
+                      "obligation": "mandatory",
+                      "code": "consignment-final-destination/isrs-code",
+                      "description": null,
+                      "additional_info": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 194,
+              "obligation": "mandatory",
+              "code": "consignment/consignor",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 195,
+                  "obligation": "mandatory",
+                  "code": "consignment-consignor/name",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            },
+            {
+              "id": 201,
+              "obligation": "mandatory",
+              "code": "consignment/consignee",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 202,
+                  "obligation": "mandatory",
+                  "code": "consignment-consignee/name",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            },
+            {
+              "id": 210,
+              "obligation": "mandatory",
+              "code": "consignment/dangerous-goods-items",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 211,
+                  "obligation": "mandatory",
+                  "code": "dangerous",
+                  "description": null,
+                  "additional_info": null,
+                  "children": [
+                    {
+                      "id": 620,
+                      "obligation": "mandatory",
+                      "code": "dangerous/adnr-ref",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 225,
+                      "obligation": "mandatory",
+                      "code": "dangerous/propername",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 226,
+                      "obligation": "mandatory",
+                      "code": "dangerous/undg",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 227,
+                      "obligation": "mandatory",
+                      "code": "dangerous/adn-class",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 228,
+                      "obligation": "mandatory",
+                      "code": "dangerous/adn-classification-code",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 229,
+                      "obligation": "mandatory",
+                      "code": "dangerous/packing-group",
+                      "description": null,
+                      "additional_info": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 510,
+              "obligation": "mandatory",
+              "code": "consignment/non-dangerous-goods-items",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 511,
+                  "obligation": "mandatory",
+                  "code": "non-dangerous",
+                  "description": null,
+                  "additional_info": null,
+                  "children": [
+                    {
+                      "id": 621,
+                      "obligation": "mandatory",
+                      "code": "non-dangerous/hs-ref",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 514,
+                      "obligation": "mandatory",
+                      "code": "non-dangerous/name",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 515,
+                      "obligation": "mandatory",
+                      "code": "non-dangerous/hs",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 516,
+                      "obligation": "mandatory",
+                      "code": "non-dangerous/nst",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 517,
+                      "obligation": "mandatory",
+                      "code": "non-dangerous/gross-weight",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 518,
+                      "obligation": "mandatory",
+                      "code": "non-dangerous/net-weight",
+                      "description": null,
+                      "additional_info": null
+                    },
+                    {
+                      "id": 541,
+                      "obligation": "mandatory",
+                      "code": "non-dangerous/placements",
+                      "description": null,
+                      "additional_info": null,
+                      "children": [
+                        {
+                          "id": 542,
+                          "obligation": "mandatory",
+                          "code": "non-dangerous-placements/placement",
+                          "description": null,
+                          "additional_info": null,
+                          "children": [
+                            {
+                              "id": 543,
+                              "obligation": "mandatory",
+                              "code": "non-dangerous-placements/eni",
+                              "description": null,
+                              "additional_info": null
+                            },
+                            {
+                              "id": 544,
+                              "obligation": "mandatory",
+                              "code": "non-dangerous-placements/gross-weight",
+                              "description": null,
+                              "additional_info": null
+                            },
+                            {
+                              "id": 545,
+                              "obligation": "mandatory",
+                              "code": "non-dangerous-placements/net-weight",
+                              "description": null,
+                              "additional_info": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "obligation": "mandatory",
+      "code": "passenger-list",
+      "description": null,
+      "additional_info": null,
+      "children": [
+        {
+          "id": 261,
+          "obligation": "mandatory",
+          "code": "passenger-list/person",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 262,
+              "obligation": "mandatory",
+              "code": "passenger/first-names",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 263,
+              "obligation": "mandatory",
+              "code": "passenger/last-name",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 264,
+              "obligation": "mandatory",
+              "code": "passenger/date-of-birth",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 265,
+              "obligation": "mandatory",
+              "code": "passenger/place-of-birth",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 266,
+              "obligation": "mandatory",
+              "code": "passenger/name-prefix",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 267,
+              "obligation": "mandatory",
+              "code": "passenger/place-of-residance",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 268,
+              "obligation": "mandatory",
+              "code": "passenger/nationality",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 406,
+              "obligation": "mandatory",
+              "code": "passenger-embarkation",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 407,
+                  "obligation": "mandatory",
+                  "code": "passenger-embarkation/location-ref",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 269,
+                  "obligation": "mandatory",
+                  "code": "passenger-embarkation/isrs-code",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            },
+            {
+              "id": 408,
+              "obligation": "mandatory",
+              "code": "passenger-disembarkation",
+              "description": null,
+              "additional_info": null,
+              "children": [
+                {
+                  "id": 409,
+                  "obligation": "mandatory",
+                  "code": "passenger-disembarkation/location-ref",
+                  "description": null,
+                  "additional_info": null
+                },
+                {
+                  "id": 270,
+                  "obligation": "mandatory",
+                  "code": "passenger-disembarkation/isrs-code",
+                  "description": null,
+                  "additional_info": null
+                }
+              ]
+            },
+            {
+              "id": 271,
+              "obligation": "mandatory",
+              "code": "passenger/transit-passenger",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "obligation": "mandatory",
+      "code": "stowaway-list",
+      "description": null,
+      "additional_info": null,
+      "children": [
+        {
+          "id": 301,
+          "obligation": "mandatory",
+          "code": "stowaway-list/person",
+          "description": null,
+          "additional_info": null,
+          "children": [
+            {
+              "id": 302,
+              "obligation": "mandatory",
+              "code": "stowaway/first-names",
+              "description": null,
+              "additional_info": null
+            },
+            {
+              "id": 303,
+              "obligation": "mandatory",
+              "code": "stowaway/last-name",
+              "description": null,
+              "additional_info": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "xml_message_versions": [
+    {
+      "type_and_code": "ERINOT - 1.4"
+    },
+    {
+      "type_and_code": "ERIVOY - 1.4"
+    },
+    {
+      "type_and_code": "PAXLST - 1.4"
+    },
+    {
+      "type_and_code": "WASDIS - 1.0"
+    },
+    {
+      "type_and_code": "ERIMAN - 1.0"
+    },
+    {
+      "type_and_code": "INVRPT - 1.0"
+    },
+    {
+      "type_and_code": "MHDS - 1.2"
+    }
+  ],
+  "graphical_templates": [
+    {
+      "code": "ceeris_dgr"
+    },
+    {
+      "code": "ceeris_ssd"
+    },
+    {
+      "code": "ceeris_sr"
+    },
+    {
+      "code": "ceeris_wdd_entry"
+    },
+    {
+      "code": "ceeris_wdd_exit"
+    },
+    {
+      "code": "david"
+    }
+  ],
+  "report_requirement_authorities": [
+    {
+      "enable_responding": true,
+      "enable_voyage_modification": true,
+      "enable_timing_modification": true,
+      "enable_permit_issue": true,
+      "name": "AT authority 1",
+      "report_requirement_authority_files": [
+        {
+          "obligation": "required",
+          "title": "Example document",
+          "description": "",
+          "file_types": [
+            "xlsx",
+            "csv"
+          ],
+          "max_size": 10
+        },
+        {
+          "obligation": "optional",
+          "title": "Other example document",
+          "description": "",
+          "file_types": [
+            "pdf",
+            "doc"
+          ],
+          "max_size": 10
+        }
+      ],
+      "authority_email_notification_info": {
+        "language": "hr",
+        "notify_pdf": true,
+        "xml_message_versions": [
+          {
+            "type_and_code": "ERIMAN - 1.0"
+          },
+          {
+            "type_and_code": "ERINOT - 1.4"
+          },
+          {
+            "type_and_code": "ERIVOY - 1.4"
+          },
+          {
+            "type_and_code": "INVRPT - 1.0"
+          },
+          {
+            "type_and_code": "MHDS - 1.2"
+          },
+          {
+            "type_and_code": "PAXLST - 1.4"
+          }
+        ],
+        "graphical_templates": [
+          {
+            "code": "david"
+          },
+          {
+            "code": "ceeris_wdd_entry"
+          },
+          {
+            "code": "ceeris_wdd_exit"
+          },
+          {
+            "code": "ceeris_ssd"
+          },
+          {
+            "code": "ceeris_dgr"
+          },
+          {
+            "code": "ceeris_sr"
+          }
+        ]
+      }
+    },
+    {
+      "enable_responding": true,
+      "enable_voyage_modification": false,
+      "enable_timing_modification": true,
+      "enable_permit_issue": true,
+      "name": "AT authority 2",
+      "report_requirement_authority_files": [],
+      "authority_email_notification_info": {
+        "language": "bg",
+        "notify_pdf": true,
+        "xml_message_versions": [],
+        "graphical_templates": []
+      }
+    }
+  ],
+  "report_requirement_voyage_qualifiers": [
+    {
+      "obligation": "required",
+      "transport_level": "",
+      "transport_type": "Passenger, Cargo, Dangerous cargo",
+      "vessel_specific": "Length >100m, LNG fuel, Color Red"
+    },
+    {
+      "obligation": "optional",
+      "transport_level": "Domestic",
+      "transport_type": "Passenger, Dangerous cargo",
+      "vessel_specific": "Length >100m, Color Red"
+    },
+    {
+      "obligation": "required",
+      "transport_level": "Domestic",
+      "transport_type": "",
+      "vessel_specific": ""
+    }
+  ]
+}
